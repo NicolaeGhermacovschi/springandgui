@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+      prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.sping.withoutweb.controller.controller">
+   <children>
+      <Label layoutX="103.0" layoutY="54.0" prefHeight="17.0" prefWidth="91.0" text="nume" />
+      <Label layoutX="103.0" layoutY="109.0" text="prenume" />
+      <TextField id="name" fx:id="name" layoutX="185.0" layoutY="51.0" onAction="#nameAction" />
+      <TextField id="lastname" fx:id="lastname" layoutX="194.0" layoutY="106.0" onAction="#lastnameAction" />
+      <Button id="save" fx:id="save" layoutX="209.0" layoutY="231.0" mnemonicParsing="false" onAction="#saveAction" text="Button" />
+   </children>
+</Pane>
